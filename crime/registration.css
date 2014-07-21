@@ -1,0 +1,188 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: serif;
+	text-shadow: 2px 2px gray;
+}
+
+h2 {
+	margin: 0 auto 20px;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+#top {
+	margin: 50px auto 25px;
+}
+
+#index {
+	background-image: url('batman1.jpg');
+	color: white;
+	background-size: 1500px;
+    background-repeat: repeat;
+}
+
+#yes {
+	background-image: url('batman2.jpg');
+	background-size: 1500px;
+    background-repeat: repeat;
+	color: white;
+}
+
+#report {
+	background-image: url('batman3.jpg');
+	background-size: 1500px;
+    background-repeat: repeat;
+	color: white;
+}
+
+#wrapper {
+	min-width: 1200px;
+}
+
+#msg {
+	display: block;
+	width: 400px;
+	height: 200px;
+	margin: auto;
+	text-align: center;
+	color: red;
+	border-radius: 10px;
+	font-size: 1.5em;
+}
+
+#small_box {
+	display: block;
+	height: 100px;
+	width: 500px;
+	border-radius: 10px;
+	margin: 50px auto 50px;
+}
+
+#message_box {
+	display: block;
+	width: 1000px;
+	margin: 0 auto 50px;
+	border-radius: 10px;
+}
+
+#incident_box {
+	display: block;
+	width: 1000px;
+	margin: 0 auto 50px;
+	border-radius: 10px;
+}
+
+#messages {
+	display: block;
+	width: 800px;
+	height: 300px;
+	margin: auto;
+	border-radius: 10px;
+	font-family: serif;
+}
+
+input[type="submit"] {
+	background-color: white;
+	color: black;
+	margin: auto;
+	margin-bottom: 20px;
+	width: 100px;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+	text-shadow: none;
+
+}
+
+#small_box input[type="submit"],
+#message_box input[type="submit"]
+{
+	display: block;
+}
+
+#incident_box input[type="submit"] {
+	display: block;
+	width: 200px;
+	margin-left: 200px;
+}
+
+textarea {
+	margin: 0 auto;
+	width: 400px;
+	height: 200px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: block;
+	text-align: top;
+	padding-left: 10px;
+	color: black;
+}
+
+input[type="text"], input[type="password"] {
+	color: black;
+	text-shadow: none;
+
+}
+
+#comment textarea {
+	margin: 10px auto 10px 50px;
+	width: 300px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: top;
+	padding-left: 10px;
+}
+
+#messages input[type="submit"] {
+	display: inline-block;
+	font-family: serif;
+}
+
+/*#top input[type="submit"] {
+	background-color: gray;
+	color: white;
+	width: 50px;
+	height: 50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: auto;
+	display: block;
+}*/
+
+input {
+	width: 150px;
+}
+
+.content {
+	width: 100%;
+	display: block;
+	height: 200px;
+	margin: 50px;
+}
+
+
+.box {
+	display: inline-block;
+	width: 15%;
+	min-height: 200px;
+	min-width: 200px;
+	text-align: center;
+	border-radius: 10px;
+}
+
+table, th, td {
+   border: 2px solid white;
+   text-align: center;
+}
+
+table {
+	width: 1000px;
+}
+
